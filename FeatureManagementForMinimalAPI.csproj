@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Feature Management for Minimal API projects</Title>
+    <Authors>Bodatero</Authors>
+    <Product>FeatureManagementForMinimalAPI</Product>
+	<Description>
+		Unlock the power of feature management in your ASP.NET Core minimal API projects with ease! 
+		This library seamlessly integrates the robust capabilities of the Microsoft.FeatureManagement.AspNetCore package, 
+		enabling you to dynamically control and gate your endpoints based on feature flags. Simplify feature toggling and 
+		enhance your application's flexibility without the overhead of traditional MVC setups. 
+		Perfect for modern, lightweight API development!
+	</Description>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.FeatureManagement" Version="3.5.0" />
+    <PackageReference Include="Microsoft.FeatureManagement.AspNetCore" Version="3.5.0" />
+  </ItemGroup>
+
+</Project>
